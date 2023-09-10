@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <meta name="GENERATOR" content="Microsoft FrontPage 4.0" />
+    <meta name="ProgId" content="FrontPage.Editor.Document" />
+    <title>Rates Update</title>
+
+    <style type="text/css">
+      .container {
+        width: 920px;
+        margin: 0 auto;
+        padding: 5px 5px;
+        border: 5px solid #ffd700;
+      }
+
+      .auto-header {
+        font-family: "Bernard MT Condensed";
+        font-size: 42pt;
+        color: #800080;
+      }
+      .auto-header2 {
+        font-family: "Bernard MT Condensed";
+        font-size: 25pt;
+        color: #000000;
+      }
+
+      .auto-footer {
+        text-align: center;
+        font-family: "Arial";
+        font-size: 20pt;
+        color: #ffffff;
+      }
+
+      .auto-text {
+        color: #ffffff;
+        font-family: "Arial";
+        font-size: 18pt;
+      }
+
+      input[type="text"] {
+        font-size: 14px;
+      }
+
+      .auto-eDS-tag {
+        text-align: center;
+        font-family: "Arial";
+        color: #666666;
+        font-size: 10pt;
+      }
+
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      background-color: #003366;
+      background-image: url('images/purple-bckgrd.jpg');
+      margin-top: 10;
+    "
+  >
+    <div class="container">
+      <br />
+      <table
+        style="width: 870; height: 150"
+        align="center"
+        cellpadding="0"
+        cellspacing="8"
+      >
+        <tr>
+          <td>
+            <img
+              src="images/globallink-logo.jpg"
+              alt="logo"
+              height="132"
+              width="144"
+              style="border: 7px solid white"
+            />
+          </td>
+          <td class="auto-style50" style="width: 740" bgcolor="#FFFFFF">
+            <p id="corners4" align="center" class="header-hw">
+              <code
+                ><span class="auto-header"> <strong>H K Services</strong></span
+                ><br />
+                <span class="auto-header2"
+                  ><strong>Money Transfer & Travel Agent</strong></span
+                ></code
+              >
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <form method="post" action="rate-write-file.asp">
+        <table style="width: 100%">
+          <tr>
+            <td align="right">
+              <p class="auto-text">Bangladesh Rate:</p>
+              <p></p>
+            </td>
+            <td align="left">
+              <input type="text" name="bdTxt" id="bdRate" />
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              <p class="auto-text">Pakistan Rate:</p>
+              <p></p>
+            </td>
+            <td align="left">
+              <input type="text" name="pkTxt" id="pkRate" />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td align="left">
+              <input type="submit" value="Send Comment" />
+            </td>
+          </tr>
+        </table>
+      </form>
+
+      <table align="center" style="width: 900">
+        <tr>
+          <td>
+            <p class="auto-eDS-tag">eDigital Solutions 2017 Version 1.0</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
